@@ -5,3 +5,38 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+h2{
+    text-align:center;
+}
+
+.news__list{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto; 
+    margin: 20px 20px; 
+    grid-gap: 20px;
+    align-self: auto;
+
+}
+
+.news__list ul{
+    border: 2px solid ;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 5px 5px #E2E8F0;
+    width: 300px;
+    padding: 20px;
+    border-top-color: rgb(2, 136, 136);
+    border-top-width: 6px;
+}
+
+.news__list img{
+    width: 250px;
+    height: 200px;
+}
+
+.news__list .title{
+    font-weight: bold;
+    font-size: large;
+}
